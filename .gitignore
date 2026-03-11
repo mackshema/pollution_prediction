@@ -1,0 +1,51 @@
+# Python virtual environments
+ai_env/
+venv/
+env/
+.venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Large data & model files (too big for GitHub without LFS)
+*.nc
+*.grib
+*.h5
+*.pkl
+*.exe
+*.dll
+
+# Large CSV/data files
+wind_trajectory.csv
+wind_data.*
+
+# Model files (large binaries - optional, uncomment if needed)
+# *.pkl
+# *.model
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/
